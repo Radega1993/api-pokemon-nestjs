@@ -47,6 +47,15 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## ENV
+1. Rename __.env.template__ for __.env__
+2. Fill the env
+```
+MONGODB=mongodb://url
+PORT=3001
+DEFAULT_LIMIT=5
+```
+
 ## Test
 
 ```bash
