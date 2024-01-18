@@ -47,6 +47,15 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+## Build the app
+1. Have __.env.prod__
+2. fill env var
+3. create image
+```
+docker compose -f docker-compose.prod.yaml --env-file .env.prod up --build
+```
+
+
 ## ENV
 1. Rename __.env.template__ for __.env__
 2. Fill the env
